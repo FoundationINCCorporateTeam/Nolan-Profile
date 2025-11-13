@@ -5,31 +5,30 @@ function Skills() {
   // PLACEHOLDER: Customize your skill levels (0-100)
   const skills = {
     languages: [
-      { name: 'JavaScript', level: 90, icon: 'JS' },
-      { name: 'Python', level: 85, icon: 'PY' },
-      { name: 'TypeScript', level: 80, icon: 'TS' },
-      { name: 'Java', level: 75, icon: 'JV' },
-      { name: 'C++', level: 70, icon: 'C++' },
-      { name: 'HTML/CSS', level: 95, icon: 'HTML' },
+      { name: 'JavaScript (Still Learning)', level: 70, icon: 'JS' },
+      { name: 'PHP', level: 85, icon: 'PHP' },
+      { name: 'Python (Still Learning)', level: 65, icon: 'PY' },
+      { name: 'Node.JS (Still Learning)', level: 65, icon: 'NODE' },
+      { name: 'Lua (Still Learning)', level: 55, icon: 'LUA' },
+      { name: 'Java (Learning)', level: 55, icon: 'C++' },
+      { name: 'HTML/CSS', level: 90, icon: 'HTML' },
     ],
     frameworks: [
-      { name: 'React', level: 90, icon: '⚛️' },
-      { name: 'Node.js', level: 85, icon: '🟢' },
-      { name: 'Express', level: 80, icon: '⚡' },
-      { name: 'Next.js', level: 75, icon: '▲' },
-      { name: 'Vue.js', level: 70, icon: '💚' },
-      { name: 'Django', level: 65, icon: '🎸' },
+      { name: 'React (Still Learning)', level: 65, icon: '⚛️' },
+      { name: 'Express', level: 70, icon: '⚡' },
+      { name: 'Next.js (Still Learning)', level: 50, icon: '▲' },
+      { name: 'Django (Learning Soon)', level: 10, icon: '🎸' },
     ],
     tools: [
       { name: 'Git', level: 90, icon: '📦' },
       { name: 'VS Code', level: 95, icon: '💻' },
       { name: 'Docker', level: 75, icon: '🐳' },
       { name: 'AWS', level: 70, icon: '☁️' },
-      { name: 'MongoDB', level: 80, icon: '🍃' },
+      { name: 'MySQL', level: 80, icon: '🍃' },
       { name: 'PostgreSQL', level: 75, icon: '🐘' },
     ],
     concepts: [
-      { name: 'Data Structures', level: 85, icon: '🌳' },
+      { name: 'Data Structures', level: 75, icon: '🌳' },
       { name: 'Algorithms', level: 80, icon: '🧮' },
       { name: 'RESTful APIs', level: 90, icon: '🔌' },
       { name: 'Responsive Design', level: 95, icon: '📱' },
@@ -148,8 +147,8 @@ function Skills() {
           {/* PLACEHOLDER: Add technologies you're currently learning */}
           <div className="learning-card">
             <div className="learning-icon">🚀</div>
-            <h3 className="learning-title">GraphQL</h3>
-            <p className="learning-description">Exploring modern API design patterns</p>
+            <h3 className="learning-title">JavaScript, React, & More</h3>
+            <p className="learning-description">I've been dreading learning all of these for awhile... but they are inevitable 😭.</p>
           </div>
           
           <div className="learning-card">
@@ -160,14 +159,14 @@ function Skills() {
           
           <div className="learning-card">
             <div className="learning-icon">📱</div>
-            <h3 className="learning-title">React Native</h3>
-            <p className="learning-description">Building cross-platform mobile apps</p>
+            <h3 className="learning-title">Python & Django</h3>
+            <p className="learning-description">Learning some Python now. Django maybe soon.</p>
           </div>
           
           <div className="learning-card">
             <div className="learning-icon">⚡</div>
-            <h3 className="learning-title">WebAssembly</h3>
-            <p className="learning-description">High-performance web applications</p>
+            <h3 className="learning-title">Luau</h3>
+            <p className="learning-description">Still have that passion to build Roblox games.</p>
           </div>
         </div>
       </div>
@@ -182,31 +181,22 @@ function Skills() {
           <div className="cert-item">
             <div className="cert-icon">🏆</div>
             <div className="cert-content">
-              <h3 className="cert-title">Add Your Certifications Here</h3>
-              <p className="cert-issuer">Platform Name</p>
-              <p className="cert-date">Date Earned</p>
+              <h3 className="cert-title">Full Stack Engineer certification in progress.</h3>
+              <p className="cert-issuer">CodeCademy</p>
+              <p className="cert-date">Date Earned: (Upcoming)</p>
             </div>
           </div>
           
           <div className="cert-item">
             <div className="cert-icon">🎓</div>
             <div className="cert-content">
-              <h3 className="cert-title">Add Your Achievements</h3>
-              <p className="cert-issuer">Organization Name</p>
-              <p className="cert-date">Date</p>
+              <h3 className="cert-title">MIT Think Program: Creating a project to submit. Hope we win!</h3>
+              <p className="cert-issuer">MIT</p>
+              <p className="cert-date">Project due date: January, 2026</p>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="edit-note">
-        <div className="note-content">
-          <h3>Customize Your Skills</h3>
-          <p>Edit the <code>skills</code> object in <code>src/pages/Skills.js</code></p>
-          <p>Update skill levels (0-100) and add/remove technologies as needed!</p>
-        </div>
-      </div>
-    </div>
   );
 }
 
