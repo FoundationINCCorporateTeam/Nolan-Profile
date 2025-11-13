@@ -30,7 +30,7 @@ function Home() {
           <div className="hero-subtitle-container">
             <span className="subtitle-tag">{'<h2>'}</span>
             <h2 className="hero-subtitle">
-              High School Student <span className="highlight">•</span> Coding Enthusiast <span className="highlight">•</span> Future Tech Leader
+              High School Student <span className="highlight">•</span> Coding Enthusiast <span className="highlight">•</span> Full Stack Developer
             </h2>
             <span className="subtitle-tag">{'</h2>'}</span>
           </div>
@@ -88,9 +88,9 @@ function Home() {
             <div className="stat-icon">{'{ }'}</div>
             <div className="stat-number">
               {/* PLACEHOLDER: Add your lines of code */}
-              <span className="counter">10K+</span>
+              <span className="counter">40K+</span>
             </div>
-            <div className="stat-label">Lines of Code</div>
+            <div className="stat-label">Lines of Code Written</div>
           </div>
           
           <div className="stat-card">
@@ -106,16 +106,16 @@ function Home() {
             <div className="stat-icon">{'[]'}</div>
             <div className="stat-number">
               {/* PLACEHOLDER: Add your tech stack count */}
-              <span className="counter">8+</span>
+              <span className="counter">7+</span>
             </div>
-            <div className="stat-label">Technologies</div>
+            <div className="stat-label">Languages & Technologies</div>
           </div>
           
           <div className="stat-card">
             <div className="stat-icon">{'()'}</div>
             <div className="stat-number">
               {/* PLACEHOLDER: Add your years coding */}
-              <span className="counter">3+</span>
+              <span className="counter">5+</span>
             </div>
             <div className="stat-label">Years Coding</div>
           </div>
@@ -132,8 +132,8 @@ function Home() {
             {/* PLACEHOLDER: Add your personal description */}
             I'm a high school student with an extraordinary passion for coding and technology. 
             From building web applications to exploring artificial intelligence, I'm constantly 
-            pushing the boundaries of what's possible. My journey in tech started young, and 
-            I'm committed to making an impact in the digital world.
+            pushing my boundaries of what's possible. My journey in tech started young, and 
+            I aim to make a lasting impact for this generation and future ones to come.
           </p>
           <Link to="/about" className="learn-more-link">
             Learn More About Me <span className="arrow">→</span>
