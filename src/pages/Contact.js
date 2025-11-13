@@ -72,30 +72,30 @@ function Contact() {
           
           <div className="contact-methods">
             {/* PLACEHOLDER: Add your actual contact information */}
-            <a href="mailto:your.email@example.com" className="contact-method">
+            <a href="mailto:mngames43011@gmail.com" className="contact-method">
               <div className="method-icon">📧</div>
               <div className="method-content">
                 <h3 className="method-title">Email</h3>
-                <p className="method-value">your.email@example.com</p>
+                <p className="method-value">mngames43011@gmail.com</p>
                 <span className="method-hint">Best for formal inquiries</span>
               </div>
             </a>
 
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-method">
+            <a href="https://github.com/TheUndercoverPerson" target="_blank" rel="noopener noreferrer" className="contact-method">
               <div className="method-icon">💻</div>
               <div className="method-content">
                 <h3 className="method-title">GitHub</h3>
-                <p className="method-value">@yourusername</p>
+                <p className="method-value">@TheUndercoverPerson</p>
                 <span className="method-hint">Check out my code</span>
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-method">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="contact-method">
               <div className="method-icon">💼</div>
               <div className="method-content">
                 <h3 className="method-title">LinkedIn</h3>
-                <p className="method-value">Nolan Idle</p>
-                <span className="method-hint">Let's connect professionally</span>
+                <p className="method-value">Haha 🤣. You think I actually have a LinkedIn? Think again 😂</p>
+                <span className="method-hint">-_-</span>
               </div>
             </a>
 
@@ -103,26 +103,17 @@ function Contact() {
               <div className="method-icon">🐦</div>
               <div className="method-content">
                 <h3 className="method-title">Twitter</h3>
-                <p className="method-value">@yourusername</p>
-                <span className="method-hint">Follow for tech updates</span>
+                <p className="method-value">Don't have this either. I am just looking for links to put here sooo...</p>
+                <span className="method-hint">GoesToNowhere.sh</span>
               </div>
             </a>
-
-            <div className="contact-method">
-              <div className="method-icon">💬</div>
-              <div className="method-content">
-                <h3 className="method-title">Discord</h3>
-                <p className="method-value">YourUsername#0000</p>
-                <span className="method-hint">For casual chats</span>
-              </div>
-            </div>
 
             <div className="contact-method">
               <div className="method-icon">📍</div>
               <div className="method-content">
                 <h3 className="method-title">Location</h3>
-                <p className="method-value">Your City, State</p>
-                <span className="method-hint">Available for local meetups</span>
+                <p className="method-value">Maple Grove, Minnesota.</p>
+                <span className="method-hint">Home sweet home.</span>
               </div>
             </div>
           </div>
@@ -219,15 +210,8 @@ function Contact() {
           </form>
 
           <div className="form-note">
-            <h3>⚠️ Setup Required</h3>
-            <p>The contact form is currently a demo. To make it functional:</p>
-            <ul>
-              <li>Integrate with <a href="https://formspree.io/" target="_blank" rel="noopener noreferrer">Formspree</a></li>
-              <li>Use <a href="https://www.emailjs.com/" target="_blank" rel="noopener noreferrer">EmailJS</a></li>
-              <li>Connect to your own backend API</li>
-              <li>Or use any other form handling service</li>
-            </ul>
-            <p>Edit the <code>handleSubmit</code> function in <code>src/pages/Contact.js</code></p>
+            <h3>⚠️ This form is not currently working.</h3>
+            <p>The contact form is currently a demo. Functionality may be added in the future. For now, just use the email provided if you would like to contact me.</p>
           </div>
         </div>
       </div>
@@ -241,10 +225,8 @@ function Contact() {
           <h3 className="availability-title">Open to:</h3>
           <ul className="availability-list">
             <li>Internship opportunities</li>
-            <li>Open source collaborations</li>
             <li>Freelance projects</li>
             <li>Mentorship programs</li>
-            <li>Hackathons and competitions</li>
           </ul>
         </div>
       </div>
