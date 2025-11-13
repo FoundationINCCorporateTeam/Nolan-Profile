@@ -90,7 +90,7 @@ function Contact() {
               </div>
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer" className="contact-method">
+            <a href="https://nolan-profile.vercel.app/contact" target="_blank" rel="noopener noreferrer" className="contact-method">
               <div className="method-icon">💼</div>
               <div className="method-content">
                 <h3 className="method-title">LinkedIn</h3>
@@ -99,7 +99,7 @@ function Contact() {
               </div>
             </a>
 
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-method">
+            <a href="https://nolan-profile.vercel.app/contact" target="_blank" rel="noopener noreferrer" className="contact-method">
               <div className="method-icon">🐦</div>
               <div className="method-content">
                 <h3 className="method-title">Twitter</h3>
