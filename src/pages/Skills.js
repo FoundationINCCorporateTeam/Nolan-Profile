@@ -172,30 +172,40 @@ function Skills() {
       </div>
 
       <div className="certifications-section">
-        <h2 className="section-title">
-          <span className="comment">{'// '}</span>
-          Certifications & Achievements
-        </h2>
-        <div className="certifications-list">
-          {/* PLACEHOLDER: Add your certifications */}
-          <div className="cert-item">
-            <div className="cert-icon">🏆</div>
-            <div className="cert-content">
-              <h3 className="cert-title">Full Stack Engineer certification in progress.</h3>
-              <p className="cert-issuer">CodeCademy</p>
-              <p className="cert-date">Date Earned: (Upcoming)</p>
-            </div>
-          </div>
-          
-          <div className="cert-item">
-            <div className="cert-icon">🎓</div>
-            <div className="cert-content">
-              <h3 className="cert-title">MIT Think Program: Creating a project to submit. Hope we win!</h3>
-              <p className="cert-issuer">MIT</p>
-              <p className="cert-date">Project due date: January, 2026</p>
-            </div>
-          </div>
-        </div>
+  <h2 className="section-title">
+    <span className="comment">{'// '}</span>
+    Certifications & Achievements
+  </h2>
+
+  <div className="certifications-list">
+
+    <div className="cert-item">
+      <div className="cert-icon">🏆</div>
+      <div className="cert-content">
+        <h3 className="cert-title">Full Stack Engineer certification in progress.</h3>
+        <p className="cert-issuer">CodeCademy</p>
+        <p className="cert-date">Date Earned: (Upcoming)</p>
+      </div>
+    </div>
+
+    <div className="cert-item">
+      <div className="cert-icon">🎓</div>
+      <div className="cert-content">
+        <h3 className="cert-title">MIT Think Program: Creating a project to submit. Hope we win!</h3>
+        <p className="cert-issuer">MIT</p>
+        <p className="cert-date">Project due date: January, 2026</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  );
+}
+
+export default Skills;
+
   );
 }
 
