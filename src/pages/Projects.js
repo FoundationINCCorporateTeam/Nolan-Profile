@@ -134,7 +134,7 @@ function Projects() {
                   ) : (
                     <div className="project-placeholder">
                       <div className="placeholder-icon">{'</>'}</div>
-                      <p>/* Add screenshot */</p>
+                      <p>{'/* Add screenshot */'}</p>
                     </div>
                   )}
                 </div>

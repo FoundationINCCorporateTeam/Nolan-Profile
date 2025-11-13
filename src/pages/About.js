@@ -104,7 +104,7 @@ console.log(nolan.getCurrentFocus());`}
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <h3 className="timeline-title">The Beginning</h3>
-                <p className="timeline-date">/* Add Year */</p>
+                <p className="timeline-date">{'/* Add Year */'}</p>
                 <p className="timeline-description">
                   Started my coding journey with Python and fell in love with programming.
                 </p>
@@ -115,7 +115,7 @@ console.log(nolan.getCurrentFocus());`}
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Web Development</h3>
-                <p className="timeline-date">/* Add Year */</p>
+                <p className="timeline-date">{'/* Add Year */'}</p>
                 <p className="timeline-description">
                   Discovered web development and built my first interactive websites.
                 </p>
@@ -126,7 +126,7 @@ console.log(nolan.getCurrentFocus());`}
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Advanced Projects</h3>
-                <p className="timeline-date">/* Add Year */</p>
+                <p className="timeline-date">{'/* Add Year */'}</p>
                 <p className="timeline-description">
                   Started building complex full-stack applications and exploring new technologies.
                 </p>
